@@ -4,6 +4,7 @@ console.log(numberOfDrumButtons);
 for (let i =0; i<numberOfDrumButtons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click",function () {
         var buttonInnerHtml = this.innerHTML;
+
         switch (buttonInnerHtml) {
             case "w":
                 var audio= new Audio("sounds/tom-1.mp3");
@@ -42,8 +43,6 @@ for (let i =0; i<numberOfDrumButtons; i++) {
 }
 
 
-
-// what to do when button is clicked
 
 
 
